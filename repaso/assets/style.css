@@ -239,7 +239,7 @@ header .logo img {
 
 /*---------------- Footer  ---------------------------*/
 footer {
-    background: #e9e8e6;
+    background: #e0dfdd;
     padding: 5px 0;
     color: #222222;
     font-size: 14px;
@@ -282,6 +282,52 @@ footer {
     margin-bottom: 0;
   }
 
+  /*-----------------------  Contact ---------------------------*/
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
+    color: var(--salmon);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222222;
+  }
+  
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 40px;
+  }
+  
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i {
+    background: var(--salmon);
+    color: #fff;
+  }
  
 
 /* --------------------------- Media Queries --------------------*/
