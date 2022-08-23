@@ -239,7 +239,7 @@ header .logo img {
 
 /*---------------- Footer  ---------------------------*/
 footer {
-    background: #e0dfdd;
+    background: var(--light-grey);
     padding: 5px 0;
     color: #222222;
     font-size: 14px;
@@ -294,7 +294,7 @@ footer {
     float: left;
     width: 44px;
     height: 44px;
-    background: #effbf9;
+    background: #f4f8f7;
     display: flex;
     justify-content: center;
     align-items: center;
