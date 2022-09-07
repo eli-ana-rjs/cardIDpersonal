@@ -168,6 +168,8 @@ header .logo img {
   .navbar li:hover>a {
     color: #222222;
   }
+
+ 
   
 /*---------------------- Header Social Links ----------------------------*/
 .header-social-links {
@@ -328,6 +330,14 @@ footer {
     background: var(--salmon);
     color: #fff;
   }
+
+  .btn-enviar{
+    background-color: var(--salmon);
+    padding: 0 15px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 25px;
+  }
  
 
 /* --------------------------- Media Queries --------------------*/
@@ -335,5 +345,9 @@ footer {
 @media (max-width: 992px) {
     header .logo {
       font-size: 28px;
+    }
+
+    .header-social-links{
+      display: none;
     }
 }
